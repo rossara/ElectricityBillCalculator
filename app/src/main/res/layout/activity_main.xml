@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE4E1"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Electric Logo -->
+
+    <ImageView
+        android:id="@+id/electricLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="224dp"
+        android:contentDescription="@string/electric_logo"
+        android:src="@drawable/electricity_logo" />
+
+    <TextView
+        android:id="@+id/labelUnits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_units"
+        android:textSize="18sp"
+        android:textColor="#880E4F"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/inputUnits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/hint_kwh"
+        android:backgroundTint="#880E4F"
+        android:padding="16dp"
+        android:textColor="#880E4F"
+        android:autofillHints="kWhUsage" />
+
+    <TextView
+        android:id="@+id/labelRebate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_rebate"
+        android:textSize="18sp"
+        android:textColor="#880E4F"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/inputRebate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#880E4F"
+        android:hint="@string/rebate_hint"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:padding="16dp"
+        android:textColor="#880E4F"
+        android:autofillHints="rebatePercentage" />
+
+    <!-- Button to calculate bill -->
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_bill"
+        android:textSize="18sp"
+        android:backgroundTint="#FF4081"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+
+    <!-- TextView for Displaying Bill -->
+    <TextView
+        android:id="@+id/tvBillResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bill_result"
+        android:textSize="20sp"
+        android:textColor="#101010"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Button to clear the calculation -->
+    <Button
+        android:id="@+id/btnClearCalculation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:textSize="18sp"
+        android:backgroundTint="#FF4081"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+
+    <!-- Button to go to About Me page -->
+    <Button
+        android:id="@+id/btnAboutMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_about_me"
+        android:textSize="18sp"
+        android:backgroundTint="#FF4081"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+    <!-- Copyright Text at the bottom -->
+    <TextView
+        android:id="@+id/copyrightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="@string/copyright_text"
+        android:textColor="#880E4F"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

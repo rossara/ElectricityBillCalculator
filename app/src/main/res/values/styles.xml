@@ -1,0 +1,7 @@
+<resources>
+    <!-- Reusable button style -->
+    <style name="CustomButtonStyle">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+</resources>

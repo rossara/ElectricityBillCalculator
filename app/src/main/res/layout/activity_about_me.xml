@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE4E1"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Profile Picture -->
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/pfp"
+        android:contentDescription="@string/profile_image_description" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/aboutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_title"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#880E4F"
+        android:layout_marginBottom="24dp" />
+
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/studentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_name"
+        android:textSize="24sp"
+        android:textColor="#880E4F"
+        android:layout_marginBottom="16dp" />
+
+
+    <!-- Student ID -->
+    <TextView
+        android:id="@+id/studentId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_id"
+        android:textSize="20sp"
+        android:textColor="#880E4F"
+        android:layout_marginBottom="16dp" />
+
+
+    <!-- Group -->
+    <TextView
+        android:id="@+id/studentGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_group"
+        android:textSize="18sp"
+        android:textColor="#880E4F"
+        android:layout_marginBottom="24dp" />
+
+
+    <!-- GitHub Button -->
+    <Button
+        android:id="@+id/btnGithub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/visit_github"
+        android:backgroundTint="#FF4081"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginTop="16dp" />
+
+
+    <!-- Redirect to Calculate Page Button -->
+    <Button
+        android:id="@+id/btnToCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_calculate_page"
+        android:backgroundTint="#FF4081"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

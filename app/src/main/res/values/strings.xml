@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Electricity Bill Calculator</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="error_invalid_values">Please enter valid values.</string>
+    <string name="bill_result">Bill: RM0.00</string>
+    <string name="calculate_bill">Calculate Bill</string>
+    <string name="electric_logo">Electric Logo</string>
+    <string name="label_units">Enter electricity usage (kWh)</string>
+    <string name="hint_kwh">kWh</string>
+    <string name="btn_about_me">About Me</string>
+    <string name="rebate_description">Rebate input field for percentage</string>
+    <string name="label_rebate">Enter rebate percentage (0–5%)</string>
+    <string name="rebate_hint">Rebate percentage (%)</string>
+    <string name="clear">Clear</string>
+    <string name="error_invalid_rebate">Error: Rebate cannot exceed 5%.</string>
+    <string name="copyright_text">© 2024 ElectricityBillCalculator by rossara.</string>
+    <string name="profile_image_description">Profile picture of the user</string>
+    <string name="about_title">About Me</string>
+    <string name="student_name">Ros Sara Elysa binti Rosfauzi</string>
+    <string name="student_id">2022851158</string>
+    <string name="student_group">RCDCS2405B</string>
+    <string name="visit_github">Visit My GitHub</string>
+    <string name="go_to_calculate_page">Go to Calculate Page</string>
+
+
+
+
+</resources>
